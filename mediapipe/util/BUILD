@@ -259,7 +259,7 @@ cc_library(
         "//mediapipe:ios": ["resource_util_apple.cc"],
         "//mediapipe:macos": ["resource_util_default.cc"],
         "//mediapipe:emscripten": ["resource_util_emscripten.cc"],
-        "//mediapipe:windows": ["resource_util_windows.cc"],
+        "//mediapipe:windows": ["resource_util_default.cc"], 
     }),
     hdrs = [
         "resource_util.h",
